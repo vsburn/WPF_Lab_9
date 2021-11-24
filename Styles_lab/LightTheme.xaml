@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <!--<Setter Property="Control.Background" Value="LightGray"/>
+        <Setter Property="Control.BorderBrush" Value="#676767"/>
+        <Setter Property="Control.Foreground" Value="Black"/>-->
+
+    </Style>
+    <Style x:Key="rTextBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="RichTextBox.Foreground" Value="Black"/>
+        <Setter Property="RichTextBox.Padding" Value="5"/>
+        <Setter Property="RichTextBox.Margin" Value="5"/>
+        <Setter Property="RichTextBox.SelectionBrush" Value="Gray"/>
+        <Setter Property="RichTextBox.Background" Value="White"/>
+    </Style>
+    <Style x:Key="ButtonStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Button.FontFamily" Value="Segoe UI Symbol"/>
+        <Setter Property="Button.FontSize" Value="20"/>
+        <Setter Property="Button.Width" Value="35"/>
+        <Setter Property="Button.Height" Value="35"/>
+        <Setter Property="Button.VerticalAlignment" Value="Center"/>
+        <Setter Property="Button.HorizontalAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="RadioBtnStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="RadioButton.Background" Value="White"/>
+    </Style>
+
+</ResourceDictionary>
